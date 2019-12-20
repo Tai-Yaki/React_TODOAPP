@@ -1,0 +1,14 @@
+.ToDoList__Header, .ToDoList__Content {
+  margin: auto;
+}
+.ToDoList__Header {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  background-color: white;
+}
+.ToDoList__Content {
+  margin-top: 10px;
+}

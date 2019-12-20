@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": [2, "double", "avoid-escape"]
+  }
+}

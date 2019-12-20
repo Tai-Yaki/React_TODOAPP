@@ -1,0 +1,28 @@
+.Card {
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.6));
+  background-color: #f2f2f2;
+  border: 2px #3d3d3d solid;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  &__Header {
+    padding: 5px 10px;
+    border-bottom: 1px #7d7d7d solid;
+  }
+  &__Footer {
+    padding: 5px;
+  }
+}
+.Button {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #66bcf2;
+  color: #fff;
+  
+  &:focus {
+    outline:0;
+  }
+}
